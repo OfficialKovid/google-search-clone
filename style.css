@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: #202025;
+}
+nav{
+
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 10px 10px 0px 0px;
+
+
+}
+nav a{
+    text-decoration: none;
+    background-color: #303134;
+    color: white;
+    border: solid 1px white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+a:hover{
+    border: none;
+
+}
+#main-sec{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type="text"]:hover{
+    background-color: #303134;
+    border: none;
+}
+input[type="text"]{
+    background-color: #202025;
+    color: white;
+    padding: 15px;
+    border: solid 1px gray;
+    border-radius: 50px;
+    /* height: 40px; */
+    width: 600px;
+    margin: 20px;
+    
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+#button{
+    display: flex;
+    gap: 10px;    
+    justify-content: center;
+}
+input[type="submit"]{
+    background-color: #303134;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
